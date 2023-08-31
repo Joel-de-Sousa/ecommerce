@@ -1,15 +1,12 @@
 package org.nttdata.ecommerce.controller;
 
 import org.modelmapper.ModelMapper;
-import org.nttdata.ecommerce.domain.Product;
 import org.nttdata.ecommerce.dto.ProductDTO;
-import org.nttdata.ecommerce.dto.mapper.Mapper;
 import org.nttdata.ecommerce.repository.IProductRepository;
 import org.nttdata.ecommerce.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

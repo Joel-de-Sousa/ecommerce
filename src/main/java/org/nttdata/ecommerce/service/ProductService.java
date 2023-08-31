@@ -6,7 +6,6 @@ import org.modelmapper.ModelMapper;
 import org.nttdata.ecommerce.domain.Product;
 import org.nttdata.ecommerce.domain.factory.IProductFactory;
 import org.nttdata.ecommerce.dto.ProductDTO;
-import org.nttdata.ecommerce.dto.mapper.Mapper;
 import org.nttdata.ecommerce.repository.IProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

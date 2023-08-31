@@ -21,19 +21,9 @@ import java.util.List;
 @SpringBootApplication
 public class EcommerceApplication {
 
-    @Autowired
-    IProductRepository iProductRepository;
-    ;
-
 
     public static void main(String[] args) {
-
-        Product p1 = new Product(1L, "chocolate", 10);
-
-
         SpringApplication.run(EcommerceApplication.class, args);
-
-
     }
 
     @Bean
